@@ -1,9 +1,92 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "projetos": [
+    {
+      "nomeP": "Projeto inicial",
+      "valorT": "6000",
+      "categorias": {
+        "id": "1",
+        "name": "infra"
+      },
+      "cost": 400,
+      "servicos": [
+        {
+          "nome": "servico 01",
+          "cost": "100",
+          "descricao": "inicial",
+          "id": "50089324-cc95-4528-863b-5f3ed28d8af1"
+        },
+        {
+          "nome": "servico 02",
+          "cost": "200",
+          "descricao": "meio",
+          "id": "3942519c-ab9f-4835-9a88-4562f240841f"
+        },
+        {
+          "nome": "teste",
+          "cost": "100",
+          "descricao": "teste",
+          "id": "7680f051-74eb-4b10-ab22-46268d34e23e"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nomeP": "2",
+      "valorT": "2000",
+      "categorias": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 500,
+      "servicos": [
+        {
+          "nome": "Contratar Dev",
+          "cost": "500",
+          "descricao": "Vai criar funções de envio de emails",
+          "id": "ac3b0321-8efe-4f08-a64f-baa40a862346"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "nomeP": "3",
+      "valorT": "3000",
+      "categorias": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "servicos": [],
+      "id": 3
+    },
+    {
+      "nomeP": "4",
+      "valorT": "4000",
+      "categorias": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "servicos": [],
+      "id": 4
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "categorias": [
+    {
+      "id": 1,
+      "name": "infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
 }
